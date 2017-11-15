@@ -1,0 +1,96 @@
+body{background-color:brown;}
+a{text-align:center;
+   color:yellow;
+   font-size:24px;
+   text-decoration:none;}
+
+a:hover{text-decoration:none;}
+
+
+nav{text-align:center;
+   padding-bottom:10px;
+   border-top:double yellow 5px;
+   border-bottom:double yellow 5px;
+   background-color:black;}
+img{border:dashed green 12px;
+      color:yellow;
+      //background-color:black;
+      height:150px;
+      width:200px;
+      text-align:center;
+      font-size:17px;
+      margin:auto;
+      display:block;
+      position:absolute;
+      top:0px; left:300px; bottom:10px;
+      padding-bottom:-200px;
+      float:left;
+      //background-image:url("../img/red-arrow.png");
+      scale: 2px;;
+      
+transition: width .5s, height .5s, font-size .5s;  
+}
+
+//.box1{width:200px;
+     height:200px;
+     background-color:red;
+     border-left:solid blue 1px;}
+
+.to{border:dashed yellow 12px;
+      color:yellow;
+      background-color:black;
+      height:150px;
+      width:200px;
+      text-align:center;
+      font-size:17px;
+      margin:auto;
+      display:block;
+      float:inherit;
+transition: width .5s, height .5s, font-size .5s;  
+}
+
+.roll{border:dashed blue 12px;
+      color:yellow;
+      background-color:black;
+      height:150px;
+      width:200px;
+      text-align:center;
+      font-size:17px;
+      margin:auto;
+      display:block;
+      margin-right:10px;
+      
+      //float:right;
+transition: width .5s, height .5s, font-size .5s;  
+}
+
+#wrapper{border:solid blue 2px;
+         width:1000px;
+         margin:auto;
+         display:block;
+         padding:10px;}
+
+img:hover,.to:hover{width:200px;
+            height:300px;
+            //font-size:40px;
+            //border:dashed yellow 12px;
+            color:red;
+            margin:auto;
+            display:block;
+            padding-bottom:0px;
+          }
+.roll:hover{width:200px;
+            height:300px;
+            font-size:40px;
+            border:dashed yellow 12px;
+            color:red;
+            margin:auto;
+            display:block;
+            margin-right:10px;
+            transform-origin:40% 20%;}
+
+
+
+
+
+

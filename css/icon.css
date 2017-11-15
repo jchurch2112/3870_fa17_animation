@@ -1,0 +1,61 @@
+body{background-color:brown;}
+h1{font-size:55px;
+   text-align: left;
+   border:none;
+   font-family: 'Pirata One', cursive;}
+h2{font-family: 'Germania One', cursive;
+   text-align:center;
+   font-size:30px;
+}
+
+a{text-align:center;
+   color:yellow;
+   font-size:30px;
+   text-decoration:none;}
+
+a:hover{text-decoration:none;}
+
+b{color:yellow;
+  word-spacing:3px;
+  font-size:24px;}
+
+nav{text-align:center;
+   padding-bottom:10px;
+   border-top:double yellow 5px;
+   border-bottom:double yellow 5px;
+   background-color:black;
+   word-spacing:10px;}
+
+.ride{border:solid green 1px;
+      font-size:48px;
+      text-align:center;
+      animation: headin .2s infinite;
+      color:blue;
+      }
+
+
+
+#icon{background-image: url("../img/icon-test-resize.png");
+
+      border:solid yellow 1px;
+      height:214px;
+      width:214px;
+      text-align:center;
+      margin:auto;
+      display:block;
+      margin-top:10px;
+      animation: play 1s steps(10) infinite;
+    }
+
+@keyframes play{
+   from{background-position:0px;}
+   to{background-position:-4285px;}
+}
+
+@keyframes headin{
+   0%{color:red;}
+   50%{color:blue;}
+   100%{color:red;}
+
+
+}
